@@ -24,7 +24,7 @@ export const InputToDo = (props) => {
             <input
                 class="input"
                 type="text"
-                placeholder="Enter to add"
+                placeholder="入力後Enterキーを押下してください。"
                 value={text}
                 onChange={handleChange}
                 onKeyPress={handleEnter}

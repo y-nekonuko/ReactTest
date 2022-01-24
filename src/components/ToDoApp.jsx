@@ -41,7 +41,7 @@ export const ToDoApp = () => {
     return (
         <div className="panel is-warning">
             <div className="panel-heading">
-                ToDo
+                {displayToDos.length} 件表示
             </div>
             <InputToDo onAdd={handleAdd} />
             <Filter
@@ -55,9 +55,6 @@ export const ToDoApp = () => {
                     onCheck={handleCheck}
                 />
             ))}
-            <div className="panel-block">
-                {displayToDos.length} todos
-            </div>
         </div>
     );
 }

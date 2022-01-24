@@ -16,18 +16,18 @@ export const Filter = (props) => {
             <a
                 href="#"
                 onClick={handleClick.bind(null, 'ALL')}
-                className={classNames({ 'is-active': value === 'ALL' })}
-            >All</a>
+                className={classNames('panel-item', { 'is-active': value === 'ALL' })}
+            >全件</a>
             <a
                 href="#"
                 onClick={handleClick.bind(null, 'TODO')}
-                className={classNames({ 'is-active': value === 'TODO' })}
-            >ToDo</a>
+                className={classNames('panel-item', { 'is-active': value === 'TODO' })}
+            >未チェック</a>
             <a
                 href="#"
                 onClick={handleClick.bind(null, 'DONE')}
-                className={classNames({ 'is-active': value === 'DONE' })}
-            >Done</a>
+                className={classNames('panel-item', { 'is-active': value === 'DONE' })}
+            >チェック済み</a>
         </div>
     );
 }
