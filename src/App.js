@@ -1,3 +1,4 @@
+import React from 'react';
 import { Routes, Route, NavLink } from 'react-router-dom';
 import Home from './routes/Home';
 import Todo from './routes/Todo';
@@ -7,7 +8,6 @@ import NoMatch from './routes/Nomatch';
 function App() {
   return (
     <div className="App">
-      <h1>Hello React Router v6</h1>
       <ul>
         <li>
           <NavLink activeClassName="active" to="/">Home</NavLink>
