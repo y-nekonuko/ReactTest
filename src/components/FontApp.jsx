@@ -13,6 +13,7 @@ export const FontApp = (props) => {
                         <h2 className="card-title">
                             {data.type}
                         </h2>
+                        <input rows="6" cols="50" className={data.css} type="text" name="fontTest"placeholder="自由に入力してください" />
                         <p className="card-text">sample：彼らの機器や装置はすべて生命体だ。</p>
                         <p className="card-text">{data.description_JP}</p>
                         <p className="card-text">{data.description}</p>
