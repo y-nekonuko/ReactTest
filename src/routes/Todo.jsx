@@ -1,11 +1,10 @@
-import ToDoApp from "../components/ToDoApp";
+import ToDoApp from "../components/pages/ToDoApp";
 
 function Todo() {
   return (
     <div className="container is-fluid">
       <ToDoApp />
     </div>
-
   );
 }
 
